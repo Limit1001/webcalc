@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Web Calculator</title>
+</head>
+<body>
+    <input id="clear" type="button" onclick="window.location.href = 'index.html';" value="Մաքրել"/>
+    <form action="#">
+        <div class="NumberType">
+            <h2>Մուտքագրեք թվերը</h2> <br> <br> <br>
+        </div>
+        <div class="AnswerBlock">
+            <h1 id="patasxan"></h1> <br> <br>
+        </div>
+        <div class="inputBlock1">
+            <input type="text" id="tiv1" placeholder="Մուտքագրեք առաջին թիվը"> <br>
+        </div> 
+        <div class="inputBlock2">
+            <input type="text" id="tiv2" placeholder="Մուտքագրեք երկրորդ թիվը"> <br> 
+        </div>
+        <div class="buttonblock1">
+            <button onclick="gumarel()">Հաշվել գումարը</button> <br> <br>
+        </div>
+        <div class="buttonblock2"> 
+            <button onclick="hanel()">Հաշվել տարբերությունը</button> <br> <br> 
+        </div>   
+        <div class="buttonblock3">  
+            <button onclick="bazmapatkel()">Հաշվել արտադրյալը</button> <br> <br>
+        </div> 
+        <div class="buttonblock4"> 
+            <button onclick="bajanel()">Հաշվել քանորդը</button> 
+        </div>
+    </form>
+    <script src="./js/script3.js"></script>
+</body>
+</html>

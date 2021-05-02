@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+body{
+    background-image: url("https://miro.medium.com/max/3622/1*RoXcbaF9lIqwpMjiXg54Vw.png");
+    background-repeat: no-repeat;
+}
+
+#tiv1{
+    margin-bottom: 15px;
+}
+
+#tiv2{
+    margin-bottom: 15px;
+}
+
+form{
+    margin: 80px;
+}
+
+.NumberType{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -100px;
+}
+
+.NumberType > h2{
+    color: crimson;
+    font-size: 40px;
+    font-family: arial;
+}
+
+.AnswerBlock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.inputBlock1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputBlock2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: royalblue;
+}
+
+.inputBlock1 > input{
+    border-radius: 30px;
+    padding: 10px 30px;
+    width: 250px;
+    background-color: rgb(26, 146, 146);
+    font-size: 20px;
+    border: none;
+}
+
+
+.inputBlock2 > input{
+    border-radius: 30px;
+    padding: 10px 30px;
+    width: 250px;
+    background-color: rgb(26, 146, 146);
+    font-size: 20px;
+    border: none;
+}
+
+.buttonblock1{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.buttonblock2{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.buttonblock3{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.buttonblock4{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+button{
+    background-color: darkolivegreen;
+    color: rgb(253, 253, 253); 
+    margin: 5px;
+    border-radius: 15px;
+    padding: 10px 10px;
+}
+
+#clear{
+    margin: 30px;
+    font-size: 20px;
+    border-radius: 20px;
+    font-family: arial;
+    background-color: brown;
+    padding: 10px 15px;
+    color: white;
+}
+
+::placeholder {
+    color: rgb(175, 4, 4);
+    opacity: 1; 
+    font-size: 14px;
+  }
